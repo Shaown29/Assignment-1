@@ -1,5 +1,5 @@
 .text-color{
-    color:darkorange;
+    color:rgb(98, 13, 235);
 }
 .between-gap{
     display:flex;
@@ -20,4 +20,52 @@ a{
 .word{
     font-family:'Fira Sans', sans-serif;
     font-size: 18px;
+}
+.background-pic{
+    background-image: url(diabetes2.webp);
+    width:100%;
+    height:70%;
+}
+#text-area{
+    text-align: center;
+}
+.headline{
+    text-align: center;
+    margin-top:5%;
+}
+.make-size{
+    border: 3px solid rgba(0, 128, 0, 0.623);
+    border-radius: 15px;
+    width: 25%;
+    padding-left: 18px;
+    padding-right: 9px;
+    box-shadow: 10px 10px 17px gray;
+    margin:27px;
+
+}
+.showing{
+    display:flex;
+}
+.visable{
+    border: 3px solid rgba(0, 128, 0, 0.623);
+    border-radius: 15px;
+    width: 25%;
+    padding-left: 18px;
+    padding-right: 9px;
+    box-shadow: 10px 10px 17px gray;
+    margin-left: 33%;
+
+}
+li{
+    border: 2%;
+    margin: 1%;
+}
+.background-edit{
+    background-color: black;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+body{
+    background-color: aqua;
 }
